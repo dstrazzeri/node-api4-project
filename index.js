@@ -8,7 +8,7 @@ const port = process.env.PORT || 9000
 server.use(express.json())
 server.use(cors())
 
-server.get('/api/oh hi', (req, res) => {
+server.get('/api/ohhi', (req, res) => {
     res.json({ message: 'ITS ALIVE' })
 })
 
